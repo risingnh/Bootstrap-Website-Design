@@ -1,0 +1,138 @@
+/* TV Viewport */
+@media (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background: #4e56639e;
+        border-radius: 30px;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+        background: #6a73829e;
+    }
+    .contact_btn{
+        text-align: center;
+        margin-left: 0;
+    }
+    .hero_section {
+        padding: 130px 0 60px 0;
+      }
+      .hero_area h2{
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+    .about_section{
+        padding: 40px 0;
+        text-align: center;
+    }
+    .about_left h2{
+        font-size: 3rem;
+    }
+    .about_left {
+        padding: 20px 20px 50px 20px;
+    }
+    .project_heading h2 {
+        font-size: 3rem;
+    }
+    .test_section {
+        padding: 20px 10px;
+    }
+    .test_left h2 {
+        font-size: 3rem;
+    }
+    .footer_middle{
+        text-align: center;
+    }
+    .footer_top {
+        padding: 0 10px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer_top h2 {
+    font-size: 2.8rem;
+    }
+    .coyright{
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile Viewport */
+@media (max-width: 767px){
+    .hero_section {
+        padding: 80px 0 40px 0;
+      }
+    .hero_area h2 {
+    font-size: 2.5rem;
+    }
+    .hero_btn {
+        margin-top: 52px;
+      }  
+    .hero_btn a{
+        font-size: 13px;
+        padding: 20px 30px;
+    }
+    .about_section {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .about_left {
+        padding: 20px 20px 50px 20px;
+    }
+    .about_left h2 {
+        font-size: 2.5rem;
+    }
+    .about_left p {
+        font-size: 1rem;
+    }
+    .project_section {
+        padding: 70px 0 20px 0;
+    }
+    .project_heading h2 {
+        font-size: 2.5rem;
+    }
+    .test_left h2 {
+        font-size: 2.5rem;
+    }
+    .pro_btn a{
+        font-size: 13px;
+        padding: 20px 30px;
+    }
+    .footer_logo {
+        margin-bottom: 10px;
+    }
+    .coyright h4{
+        font-size: 1rem;
+    }
+}
+
+/* Small Mobile Viewport */
+@media (max-width: 575px){
+    .hero_section {
+        padding: 80px 0 10px 0;
+    }
+    .hero_area h2 {
+        font-size: 2rem;
+    }
+    .about_left {
+        padding: 20px 20px 50px 20px;
+    }
+    .about_left h2 {
+        font-size: 2rem;
+    }
+    .project_heading h2 {
+        font-size: 2rem;
+    }
+    .pro_btn a{
+        padding: 15px 25px;
+    }
+    .project_heading {
+        padding-bottom: 60px;
+    }
+    .test_left h2 {
+        font-size: 2rem;
+    }
+    .test_left p {
+        font-size: 1rem;
+    }
+    .footer_top h2 {
+        font-size: 2.1rem;
+    }
+}
